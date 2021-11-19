@@ -1,9 +1,9 @@
 <?php
 
-        echo file_get_contents('https://xlq5hokesc.execute-api.eu-west-1.amazonaws.com/default/test');
+        echo file_get_contents('{LAMBDA_FUNCTION_URL}/*');
         //lambda endpoint
 
 ?>
 <br>
-<img src="https://jensmaes-s3-terraform-bucket-lab.s3-eu-west-1.amazonaws.com/image.png">
+<img src="https://{S3_BUCKET_NAME}.s3-eu-west-1.amazonaws.com/image.png">
 <!--image file stored on S3-->
