@@ -15,7 +15,7 @@ resource "aws_instance" "cloud-example-3" {
     "sg-0010525517c718fb0"
 
   ]
-  user_data = file("install-files/apache2.sh")
+  user_data = file("install-files/apache2.sh test")
   tags = {
 
     "Name" = "terraform-instance-4"

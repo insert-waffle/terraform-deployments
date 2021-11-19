@@ -5,5 +5,5 @@
 
 ?>
 <br>
-<img src="https://tmcloud.s3-eu-west-1.amazonaws.com/image.png">
+<img src="https://jensmaes-s3-terraform-bucket-lab.s3-eu-west-1.amazonaws.com/image.png">
 <!--image file stored on S3-->
